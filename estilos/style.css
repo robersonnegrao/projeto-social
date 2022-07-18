@@ -39,6 +39,25 @@ iframe#tela {
     top: 80px;
     left: 22px;
     width: 269px;
-    height: 471px;
-  
+    height: 471px;  
+}
+
+section#redes-sociais {
+    text-align: right; /* alinhar icones à direita */
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%; /* deixa arredondado */
+    box-shadow: 2px 2px 5px black; /* sombreamento */
+    box-sizing: border-box; /* aqui a borda faz parte do objeto/caixa, deixando de tremer os demais quando passa sobre um */
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.635);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.626); /* sombreamento quando passae o mouse */
+    transition: transform .3s, border .5s; /* faz o translete e o border de forma suave */
+
 }
